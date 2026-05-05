@@ -195,6 +195,10 @@
   height: 100%;
   backface-visibility: hidden;
   border-radius: 12px;
+
+   @media (max-width: 1024px) {
+    overflow-y: auto;
+  }
 }
 
 .card-front h3 {
@@ -295,4 +299,17 @@
 
 .card-container:hover .pokemon-card {
   box-shadow: 0 0 20px var(--type-color);
+}
+
+.card-front::after {
+  @media (max-width: 1024px) {
+    content: '↕ scroll • double tap to flip';
+    display: block;
+    text-align: center;
+    font-size: 6px;
+    color: #666;
+    padding: 4px 0;
+    position: sticky;
+    bottom: 0;
+  }
 }
