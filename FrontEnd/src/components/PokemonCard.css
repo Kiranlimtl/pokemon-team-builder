@@ -12,6 +12,7 @@
   aspect-ratio: 2/3;
   box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 
 .empty-slot {
@@ -44,6 +45,11 @@
   font-size: 40px;
   color: #555;
   margin-bottom: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
 }
 
 .types {
@@ -60,6 +66,11 @@
   font-size: 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
+
+  @media (max-width: 1024px) {
+    font-size: 7px;
+    padding: 2px 6px;
+  }
 }
 
 .type-badge.normal {
@@ -123,6 +134,11 @@
   margin-bottom: 4px;
   font-size: 12px;
   align-items: center;
+
+   @media (max-width: 1024px) {
+    font-size: 8px;
+    margin-bottom: 2px;
+  }
 }
 
 .stat-name {
@@ -131,6 +147,10 @@
   text-align: left;
   width: 50px;
   flex-shrink: 0;
+
+  @media (max-width: 1024px) {
+    width: 30px;
+  }
 }
 
 .stat-bar-bg {
@@ -150,6 +170,10 @@
   width: 50px;
   text-align: right;
   color: white;
+
+  @media (max-width: 1024px) {
+    width: 25px;
+  }
 }
 
 .card {
@@ -177,6 +201,11 @@
   margin: 16px 0px;
   font-size: 18px;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.199);
+
+  @media (max-width: 1024px) {
+    font-size: 11px;
+    margin: 8px 0;
+  }
 }
 
 .card-back {
@@ -186,6 +215,11 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
+
+  @media (max-width: 1024px) {
+    gap: 6px;
+    padding: 8px;
+  }
 }
 
 .abilities {
@@ -193,6 +227,11 @@
   flex-direction: column;
   gap: 8px;
   align-items: center;
+
+   @media (max-width: 1024px) {
+    font-size: 7px;
+    padding: 4px 8px;
+  }
 }
 
 .ability {
@@ -231,6 +270,11 @@
   height: 140px;
   display: block;
   margin: 0 auto;
+
+   @media (max-width: 1024px) {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .card-image-back {
@@ -238,6 +282,11 @@
   height: 200px;
   display: block;
   margin: 0 auto;
+
+  @media (max-width: 1024px) {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .card-container:hover {
