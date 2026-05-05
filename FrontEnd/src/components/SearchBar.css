@@ -8,7 +8,8 @@
 }
 
 .search-bar input {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   padding: 12px 16px;
   font-family: 'Press Start 2P', cursive;
   font-size: 12px;
@@ -16,11 +17,13 @@
   border: 2px solid #444;
   color: white;
   border-radius: 8px;
+  box-sizing: border-box;
 }
 
 .search-results {
   list-style: none;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   background: #2a2a4a;
   border: 2px solid #444;
   border-top: none;
