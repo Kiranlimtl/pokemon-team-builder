@@ -1,0 +1,19 @@
+.title-bar {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.title-bar img{
+    width: 64px;
+    height: 64px;
+    background: none;
+}
+
+.title-bar h1 {
+  font-size: 30px;
+  color: white;
+  line-height: 1.5;
+}

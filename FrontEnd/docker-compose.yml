@@ -1,0 +1,5 @@
+services:
+  pokemon-team-builder:
+    build: .
+    ports:
+      - "12345:80"

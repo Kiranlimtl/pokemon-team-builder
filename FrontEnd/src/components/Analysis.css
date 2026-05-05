@@ -1,0 +1,168 @@
+.analysis-section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #2a2a4a;
+  border-radius: 12px;
+  border: 2px solid #444;
+}
+
+.analysis-section h2 {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.weakness-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  background: #1a1a2e;
+  border-radius: 8px;
+}
+
+.weakness-count {
+  font-size: 10px;
+  color: white;
+  margin-left: auto;
+  background: rgba(255, 0, 0, 0.3);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.uncovered {
+  background: #1a1a2e;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 12px;
+}
+
+.uncovered p {
+  font-size: 9px;
+  color: #aaa;
+  margin-bottom: 12px;
+}
+
+.uncovered-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.all-covered {
+  font-size: 10px;
+  color: #7AC74C;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.roles-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.role-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #1a1a2e;
+  border-radius: 8px;
+  text-transform: capitalize;
+}
+
+.role-name {
+  font-size: 10px;
+  color: white;
+}
+
+.role-badge {
+  font-size: 8px;
+  color: #7AC74C;
+  background: rgba(122, 199, 76, 0.15);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.recommendations {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.rec-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 16px;
+    background: #1a1a2e;
+    border-radius: 8px;
+    font-size: 11px;
+    color: #aaa;
+    /* remove text-transform: capitalize */
+}
+
+.rec-row span:last-child {
+    text-align: left;
+    flex: 1;
+}
+
+.rec-icon {
+  font-size: 16px;
+}
+
+.analysis-section h2 {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.weakness-row.danger {
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  background: rgba(255, 0, 0, 0.1);
+}
+
+.weakness-count {
+    font-size: 12px;
+    color: white;
+    margin-left: auto;
+    background: rgba(255, 0, 0, 0.3);
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.weak-pokemon-sprites {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.mini-name {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.analysis-section h2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 1)
+}
+
