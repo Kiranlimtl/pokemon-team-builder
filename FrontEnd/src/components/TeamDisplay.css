@@ -1,8 +1,12 @@
 .team-display {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   margin-top: 20px;
   justify-content: center;
   padding: 30px 20px;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, 320px);
+  }
 }

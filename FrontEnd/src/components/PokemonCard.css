@@ -142,8 +142,9 @@
 
 .card-container {
   width: 100%;
-  max-width: 320px;
-  height: 480px;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 2/3;
   perspective: 1000px;
   cursor: pointer;
   transition: transform 0.2s ease-out;
