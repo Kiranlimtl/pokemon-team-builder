@@ -22,7 +22,11 @@ const StatRadarChart = ({
     .join(' ');
 
   return (
-    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>
+    <svg
+      width="100%"
+      style={{ maxWidth: `${size}px` }}
+      viewBox={`-60 -20 ${size + 120} ${size + 40}`}
+    >
       {/* Grid circles */}
       {Array.from({ length: levels }, (_, i) => (
         <polygon
@@ -82,15 +86,15 @@ const StatRadarChart = ({
                 ? '#FACC15'
                 : '#ffffff';
         return (
-          <text
-            key={i}
-            x={lx}
-            y={ly}
-            textAnchor="middle"
-            dominantBaseline="middle"
-            fontSize={12}
-            fontWeight="bold"
-          >
+            <text
+                key={i}
+                x={lx}
+                y={ly}
+                textAnchor="middle"
+                dominantBaseline="middle"
+                className="radar-label"
+                fontWeight="bold"
+            >
             <tspan fill="#ffffff">{d.stat} </tspan>
             <tspan fill={color}>({d.value})</tspan>
           </text>
