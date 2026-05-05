@@ -44,7 +44,7 @@ const PokemonCard = ({ pokemon, onRemove }: PokemonCardProps) => {
   return (
     <div
       className="card-container"
-      onClick={() => setFlipped(!flipped)}
+      onDoubleClick={() => setFlipped(!flipped)}
       style={
         {
           '--type-color': getTypeColor(pokemon.types[0]),
