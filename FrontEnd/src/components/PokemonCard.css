@@ -48,24 +48,60 @@
   text-transform: capitalize;
 }
 
-.type-badge.normal { background: #A8A77A; }
-.type-badge.fire { background: #EE8130; }
-.type-badge.water { background: #6390F0; }
-.type-badge.electric { background: #F7D02C; }
-.type-badge.grass { background: #7AC74C; }
-.type-badge.ice { background: #96D9D6; }
-.type-badge.fighting { background: #C22E28; }
-.type-badge.poison { background: #A33EA1; }
-.type-badge.ground { background: #E2BF65; }
-.type-badge.flying { background: #A98FF3; }
-.type-badge.psychic { background: #F95587; }
-.type-badge.bug { background: #A6B91A; }
-.type-badge.rock { background: #B6A136; }
-.type-badge.ghost { background: #735797; }
-.type-badge.dragon { background: #6F35FC; }
-.type-badge.dark { background: #705746; }
-.type-badge.steel { background: #B7B7CE; }
-.type-badge.fairy { background: #D685AD; }
+.type-badge.normal {
+  background: #a8a77a;
+}
+.type-badge.fire {
+  background: #ee8130;
+}
+.type-badge.water {
+  background: #6390f0;
+}
+.type-badge.electric {
+  background: #f7d02c;
+}
+.type-badge.grass {
+  background: #7ac74c;
+}
+.type-badge.ice {
+  background: #96d9d6;
+}
+.type-badge.fighting {
+  background: #c22e28;
+}
+.type-badge.poison {
+  background: #a33ea1;
+}
+.type-badge.ground {
+  background: #e2bf65;
+}
+.type-badge.flying {
+  background: #a98ff3;
+}
+.type-badge.psychic {
+  background: #f95587;
+}
+.type-badge.bug {
+  background: #a6b91a;
+}
+.type-badge.rock {
+  background: #b6a136;
+}
+.type-badge.ghost {
+  background: #735797;
+}
+.type-badge.dragon {
+  background: #6f35fc;
+}
+.type-badge.dark {
+  background: #705746;
+}
+.type-badge.steel {
+  background: #b7b7ce;
+}
+.type-badge.fairy {
+  background: #d685ad;
+}
 
 .stat-row {
   display: flex;
@@ -88,13 +124,12 @@
   flex: 1;
   background: #1a1a2e;
   border-radius: 3px;
-  
 }
 
 .stat-bar {
   height: 100%;
   border-radius: 3px;
-  background: #7AC74C;
+  background: #7ac74c;
 }
 
 .stat-value {
@@ -135,7 +170,7 @@
 .card-front h3 {
   margin: 16px 0px;
   font-size: 18px;
-  text-shadow: 2px 2px rgba(0, 0, 0, 0.199)
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.199);
 }
 
 .card-back {
@@ -154,7 +189,7 @@
   align-items: center;
 }
 
-.ability{
+.ability {
   font-size: 12px;
   color: white;
   background: #1a1a2e;
@@ -200,7 +235,7 @@
 }
 
 .card-container:hover {
-    transform: scale(1.025);
+  transform: scale(1.025);
 }
 
 .card-container:hover .pokemon-card {

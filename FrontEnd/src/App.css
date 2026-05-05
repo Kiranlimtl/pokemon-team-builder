@@ -185,7 +185,15 @@
   }
 }
 
-body, h1, h2, h3, p, span, div, input, button {
+body,
+h1,
+h2,
+h3,
+p,
+span,
+div,
+input,
+button {
   font-family: 'Press Start 2P', cursive !important;
 }
 
@@ -217,22 +225,56 @@ html {
 }
 
 @keyframes rainbow {
-    0% { background-color: #FF0000; }
-    17% { background-color: #FF8000; }
-    33% { background-color: #FFFF00; }
-    50% { background-color: #00FF00; }
-    67% { background-color: #0080FF; }
-    83% { background-color: #8000FF; }
-    100% { background-color: #FF0000; }
+  0% {
+    background-color: #ff0000;
+  }
+  17% {
+    background-color: #ff8000;
+  }
+  33% {
+    background-color: #ffff00;
+  }
+  50% {
+    background-color: #00ff00;
+  }
+  67% {
+    background-color: #0080ff;
+  }
+  83% {
+    background-color: #8000ff;
+  }
+  100% {
+    background-color: #ff0000;
+  }
 }
 
 @keyframes rainbow-glow {
-    0% { background-color: #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6); }
-    17% { background-color: #FF8000; box-shadow: 0 0 30px rgba(255, 128, 0, 0.6); }
-    33% { background-color: #FFFF00; box-shadow: 0 0 30px rgba(255, 255, 0, 0.6); }
-    50% { background-color: #00FF00; box-shadow: 0 0 30px rgba(0, 255, 0, 0.6); }
-    67% { background-color: #0080FF; box-shadow: 0 0 30px rgba(0, 128, 255, 0.6); }
-    83% { background-color: #8000FF; box-shadow: 0 0 30px rgba(128, 0, 255, 0.6); }
-    100% { background-color: #FF0000; box-shadow: 0 0 30px rgba(255, 0, 0, 0.6); }
+  0% {
+    background-color: #ff0000;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+  }
+  17% {
+    background-color: #ff8000;
+    box-shadow: 0 0 30px rgba(255, 128, 0, 0.6);
+  }
+  33% {
+    background-color: #ffff00;
+    box-shadow: 0 0 30px rgba(255, 255, 0, 0.6);
+  }
+  50% {
+    background-color: #00ff00;
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.6);
+  }
+  67% {
+    background-color: #0080ff;
+    box-shadow: 0 0 30px rgba(0, 128, 255, 0.6);
+  }
+  83% {
+    background-color: #8000ff;
+    box-shadow: 0 0 30px rgba(128, 0, 255, 0.6);
+  }
+  100% {
+    background-color: #ff0000;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.6);
+  }
 }
-

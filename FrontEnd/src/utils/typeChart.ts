@@ -1,4 +1,7 @@
-export const typeChart: Record<string, { weakTo: string[], resistantTo: string[], immuneTo: string[] }> = {
+export const typeChart: Record<
+  string,
+  { weakTo: string[]; resistantTo: string[]; immuneTo: string[] }
+> = {
   normal: {
     weakTo: ['fighting'],
     resistantTo: [],
@@ -81,7 +84,18 @@ export const typeChart: Record<string, { weakTo: string[], resistantTo: string[]
   },
   steel: {
     weakTo: ['fire', 'fighting', 'ground'],
-    resistantTo: ['normal', 'grass', 'ice', 'flying', 'psychic', 'bug', 'rock', 'dragon', 'steel', 'fairy'],
+    resistantTo: [
+      'normal',
+      'grass',
+      'ice',
+      'flying',
+      'psychic',
+      'bug',
+      'rock',
+      'dragon',
+      'steel',
+      'fairy',
+    ],
     immuneTo: ['poison'],
   },
   fairy: {
