@@ -7,8 +7,9 @@
   text-align: left;
   text-transform: capitalize;
   width: 100%;
-  max-width: 320px;
-  height: 480px;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 2/3;
   box-sizing: border-box;
   position: relative;
 }
@@ -21,11 +22,22 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 320px;
-  height: 480px;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 2/3;
   box-sizing: border-box;
   color: #666;
   cursor: pointer;
+}
+
+.card-container {
+  width: 100%;
+  max-width: none;
+  height: auto;
+  aspect-ratio: 2/3;
+  perspective: 1000px;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
 }
 
 .empty-plus {
@@ -138,16 +150,6 @@
   width: 50px;
   text-align: right;
   color: white;
-}
-
-.card-container {
-  width: 100%;
-  max-width: none;
-  height: auto;
-  aspect-ratio: 2/3;
-  perspective: 1000px;
-  cursor: pointer;
-  transition: transform 0.2s ease-out;
 }
 
 .card {
