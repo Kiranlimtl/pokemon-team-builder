@@ -86,15 +86,15 @@ const StatRadarChart = ({
                 ? '#FACC15'
                 : '#ffffff';
         return (
-            <text
-                key={i}
-                x={lx}
-                y={ly}
-                textAnchor="middle"
-                dominantBaseline="middle"
-                className="radar-label"
-                fontWeight="bold"
-            >
+          <text
+            key={i}
+            x={lx}
+            y={ly}
+            textAnchor="middle"
+            dominantBaseline="middle"
+            className="radar-label"
+            fontWeight="bold"
+          >
             <tspan fill="#ffffff">{d.stat} </tspan>
             <tspan fill={color}>({d.value})</tspan>
           </text>
