@@ -226,16 +226,22 @@
   }
 }
 
+.card-back h3 {
+  margin: 16px 0px;
+  font-size: 18px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.199);
+
+  @media (max-width: 1024px) {
+    font-size: 11px;
+    margin: 8px 0;
+  }
+}
+
 .abilities {
   display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
-
-  @media (max-width: 1024px) {
-    font-size: 7px;
-    padding: 4px 8px;
-  }
 }
 
 .ability {
@@ -245,6 +251,11 @@
   padding: 8px 16px;
   border-radius: 6px;
   text-transform: capitalize;
+
+  @media (max-width: 1024px) {
+    font-size: 7px;
+    padding: 4px 8px;
+  }
 }
 
 .remove-btn {
@@ -299,17 +310,4 @@
 
 .card-container:hover .pokemon-card {
   box-shadow: 0 0 20px var(--type-color);
-}
-
-.card-front::after {
-  @media (max-width: 1024px) {
-    content: '↕ scroll • double tap to flip';
-    display: block;
-    text-align: center;
-    font-size: 6px;
-    color: #666;
-    padding: 4px 0;
-    position: sticky;
-    bottom: 0;
-  }
 }

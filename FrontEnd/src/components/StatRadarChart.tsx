@@ -74,8 +74,8 @@ const StatRadarChart = ({
       ))}
       {/* Labels */}
       {data.map((d, i) => {
-        const lx = getX(maxValue * 1.5, i);
-        const ly = getY(maxValue * 1.5, i);
+        const lx = getX(maxValue * 1.6, i);
+        const ly = getY(maxValue * 1.6, i);
         const avg = data.reduce((sum, s) => sum + s.value, 0) / data.length;
         const color =
           d.value >= avg * 1.2

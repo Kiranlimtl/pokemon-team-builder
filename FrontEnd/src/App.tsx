@@ -72,7 +72,7 @@ function App() {
         </button>
       )}
 
-      {showAnalysis && <Analysis team={team} />}
+      {showAnalysis && team.length > 0 && <Analysis team={team} />}
     </div>
   );
 }
