@@ -86,7 +86,7 @@ const Analysis = ({ team }: AnalysisProp) => {
       <div className="roles-list">
         {roles.map(({ name, role }) => (
           <div key={name} className="role-row">
-            <span className="role-name">{name}</span>
+            <span className="mini-name">{name}</span>
             <span className="role-badge">{role}</span>
           </div>
         ))}

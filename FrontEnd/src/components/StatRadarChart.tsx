@@ -95,7 +95,7 @@ const StatRadarChart = ({
             className="radar-label"
             fontWeight="bold"
           >
-            <tspan fill="#ffffff">{d.stat} </tspan>
+            <tspan fill="#ffffffd9">{d.stat} </tspan>
             <tspan fill={color}>({d.value})</tspan>
           </text>
         );
