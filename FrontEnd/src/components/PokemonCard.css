@@ -219,7 +219,7 @@
   align-items: center !important;
   justify-content: center;
   gap: 12px;
-  text-align: left;
+  text-align: center;
 
   @media (max-width: 1024px) {
     gap: 6px;

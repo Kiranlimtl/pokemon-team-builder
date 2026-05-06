@@ -32,38 +32,40 @@ const SearchBar = ({ onSelect, searchRef }: SearchBarProps) => {
       className="search-bar"
       onBlur={() => setTimeout(() => setIsOpen(false), 200)}
     >
-      <input
-        ref={searchRef}
-        type="text"
-        placeholder="Search Pokemon..."
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        onFocus={() => setIsOpen(true)}
-      />
-      {isOpen && filtered.length > 0 && (
-        <ul className="search-results">
-          {filtered.map((pokemon) => {
-            const id = pokemon.url.split('/').filter(Boolean).pop();
-            return (
-              <li
-                key={pokemon.name}
-                onClick={() => {
-                  onSelect(pokemon.name);
-                  setQuery('');
-                  setFiltered([]);
-                  setIsOpen(false);
-                }}
-              >
-                <img
-                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}
-                  alt={pokemon.name}
-                />
-                {pokemon.name}
-              </li>
-            );
-          })}
-        </ul>
-      )}
+      <div className="search-wrapper">
+        <input
+          ref={searchRef}
+          type="text"
+          placeholder="Search Pokemon..."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          onFocus={() => setIsOpen(true)}
+        />
+        {isOpen && filtered.length > 0 && (
+          <ul className="search-results">
+            {filtered.map((pokemon) => {
+              const id = pokemon.url.split('/').filter(Boolean).pop();
+              return (
+                <li
+                  key={pokemon.name}
+                  onClick={() => {
+                    onSelect(pokemon.name);
+                    setQuery('');
+                    setFiltered([]);
+                    setIsOpen(false);
+                  }}
+                >
+                  <img
+                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`}
+                    alt={pokemon.name}
+                  />
+                  {pokemon.name}
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </div>
     </div>
   );
 };
