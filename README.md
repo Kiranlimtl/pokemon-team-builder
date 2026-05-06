@@ -86,6 +86,20 @@ The app is deployed on [Render](https://render.com) with auto-deploy on push to 
 
 ## Screenshots
 
-<!-- Add screenshots here -->
-<!-- ![Desktop View](screenshots/desktop.png) -->
-<!-- ![Mobile View](screenshots/mobile.png) -->
+### Desktop
+![Desktop View](screenshots/Desktop_1.png)
+![Desktop View](screenshots/Desktop_2.png)
+![Desktop View](screenshots/Desktop_3.png)
+
+### Mobile
+![Mobile View](screenshots/Mobile_1.png)
+![Mobile View](screenshots/Mobile_2.png)
+![Mobile View](screenshots/Mobile_3.png)
+
+## RoadMap
+
+- Backend with user authentication to save teams
+- Share teams via URL
+- Suggest Pokemon to fill team weakness with the use of LLMs
+- Add support for Smogon's Tier System for competitive team building
+
