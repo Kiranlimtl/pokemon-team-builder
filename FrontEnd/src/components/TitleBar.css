@@ -25,8 +25,9 @@
 
 .title-bar h1 {
   font-size: 30px;
-  color: white;
+  color: var(--text-h);
   line-height: 1.5;
+  margin: 0;
 
   @media (max-width: 480px) {
     font-size: 18px;

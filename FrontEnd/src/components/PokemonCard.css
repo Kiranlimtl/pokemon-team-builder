@@ -219,6 +219,7 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
+  text-align: left;
 
   @media (max-width: 1024px) {
     gap: 6px;
@@ -308,7 +309,7 @@
   @media (max-width: 1024px) {
     width: 100px;
     height: 100px;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-shrink: 0;
   }
 }
