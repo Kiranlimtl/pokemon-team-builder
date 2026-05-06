@@ -40,6 +40,8 @@ npm install
 npm run dev
 ```
 
+The app will be available at `http://localhost:5173`.
+
 ### Testing
 
 Run the test suite:
@@ -48,8 +50,6 @@ Run the test suite:
 cd FrontEnd
 npm run test
 ```
-
-The app will be available at `http://localhost:5173`.
 
 ### Docker
 
