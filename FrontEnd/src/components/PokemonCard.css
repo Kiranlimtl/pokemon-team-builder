@@ -233,6 +233,7 @@
   margin: 16px 0px;
   font-size: 18px;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.199);
+  overflow-wrap: break-word;
 
   @media (max-width: 1024px) {
     font-size: 11px;
@@ -245,6 +246,7 @@
   flex-direction: column;
   gap: 8px;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .ability {
@@ -301,11 +303,13 @@
   height: 200px;
   display: block;
   margin: 0 auto;
+  object-fit: contain;
 
   @media (max-width: 1024px) {
     width: 100px;
     height: 100px;
     margin-top: 20px;
+    flex-shrink: 0;
   }
 }
 

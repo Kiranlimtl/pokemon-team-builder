@@ -5,7 +5,10 @@ const TitleBar = () => {
   return (
     <div className="title-bar">
       <img src={logo} alt="Pokemon Logo" />
-      <h1>Pokemon Team Builder</h1>
+      <div>
+        <h1>Pokemon Team Builder</h1>
+        <p className="subtitle">Build your team, analyse weaknesses & coverage</p>
+      </div>
     </div>
   );
 };
