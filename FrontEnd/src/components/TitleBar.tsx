@@ -4,13 +4,13 @@ import './TitleBar.css';
 const TitleBar = () => {
   return (
     <div className="title-bar">
-      <img src={logo} alt="Pokemon Logo" />
-      <div>
+      <div className="title-row">
+        <img src={logo} alt="Pokemon Logo" />
         <h1>Pokemon Team Builder</h1>
-        <p className="subtitle">
+      </div>
+      <p className="subtitle">
           Build your team, analyse weaknesses & coverage
         </p>
-      </div>
     </div>
   );
 };

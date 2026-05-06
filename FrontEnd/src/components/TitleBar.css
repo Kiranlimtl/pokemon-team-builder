@@ -1,22 +1,20 @@
 .title-bar {
-  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+}
+
+.title-row {
   display: flex;
   align-items: center;
   gap: 16px;
   justify-content: center;
-  padding: 16px 16px;
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    padding: 20px 16px;
-    gap: 0;
-  }
 }
 
-.title-bar img {
+.title-row img {
   width: 64px;
   height: 64px;
-  background: none;
 
   @media (max-width: 1024px) {
     width: 48px;
@@ -32,7 +30,6 @@
 
   @media (max-width: 480px) {
     font-size: 18px;
-    line-height: 1.2;
   }
 }
 
@@ -43,6 +40,6 @@
 
   @media (max-width: 1024px) {
     font-size: 7px;
-    margin-top: 2px;
+    margin-top: 12px;
   }
 }
