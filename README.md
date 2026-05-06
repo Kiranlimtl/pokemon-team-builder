@@ -32,6 +32,14 @@ Build and analyse competitive Pokemon teams with an interactive, retro-styled in
 - npm
 - Docker (optional, for containerised builds)
 
+### Local Development
+
+```bash
+cd FrontEnd
+npm install
+npm run dev
+```
+
 ### Testing
 
 Run the test suite:
@@ -39,14 +47,6 @@ Run the test suite:
 ```bash
 cd FrontEnd
 npm run test
-```
-
-### Local Development
-
-```bash
-cd FrontEnd
-npm install
-npm run dev
 ```
 
 The app will be available at `http://localhost:5173`.
