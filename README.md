@@ -1,5 +1,7 @@
 # Pokemon Team Builder
 
+![CI](https://github.com/Kiranlimtl/pokemon-team-builder/actions/workflows/ci.yml/badge.svg)
+
 Build and analyse competitive Pokemon teams with an interactive, retro-styled interface.
 
 **Live Demo:** [pokemon-team-builder-lbqr.onrender.com](https://pokemon-team-builder-lbqr.onrender.com)
@@ -29,6 +31,15 @@ Build and analyse competitive Pokemon teams with an interactive, retro-styled in
 - Node.js 20+
 - npm
 - Docker (optional, for containerised builds)
+
+## Testing
+
+Run the test suite:
+
+```bash
+cd FrontEnd
+npm run test
+```
 
 ### Local Development
 
