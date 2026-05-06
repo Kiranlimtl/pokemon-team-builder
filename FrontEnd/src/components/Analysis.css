@@ -143,14 +143,6 @@
   font-size: 16px;
 }
 
-.analysis-section h2 {
-  font-size: 14px;
-  color: white;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 16px;
-}
-
 .weakness-row.danger {
   border: 1px solid rgba(255, 0, 0, 0.4);
   background: rgba(255, 0, 0, 0.1);
