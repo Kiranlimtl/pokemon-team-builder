@@ -216,7 +216,7 @@
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center !important;
   justify-content: center;
   gap: 12px;
   text-align: left;
