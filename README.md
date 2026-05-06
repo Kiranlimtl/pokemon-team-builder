@@ -92,9 +92,9 @@ The app is deployed on [Render](https://render.com) with auto-deploy on push to 
 ![Desktop View](screenshots/Desktop_3.png)
 
 ### Mobile
-![Mobile View](screenshots/Mobile_1.png)
-![Mobile View](screenshots/Mobile_2.png)
-![Mobile View](screenshots/Mobile_3.png)
+![Mobile View](screenshots/Mobile_1.jpg)
+![Mobile View](screenshots/Mobile_2.jpg)
+![Mobile View](screenshots/Mobile_3.jpg)
 
 ## RoadMap
 
