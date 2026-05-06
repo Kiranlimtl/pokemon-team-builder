@@ -7,7 +7,9 @@ const TitleBar = () => {
       <img src={logo} alt="Pokemon Logo" />
       <div>
         <h1>Pokemon Team Builder</h1>
-        <p className="subtitle">Build your team, analyse weaknesses & coverage</p>
+        <p className="subtitle">
+          Build your team, analyse weaknesses & coverage
+        </p>
       </div>
     </div>
   );
