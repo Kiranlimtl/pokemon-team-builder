@@ -32,7 +32,7 @@ Build and analyse competitive Pokemon teams with an interactive, retro-styled in
 - npm
 - Docker (optional, for containerised builds)
 
-## Testing
+### Testing
 
 Run the test suite:
 
